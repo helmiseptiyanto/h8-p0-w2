@@ -1,0 +1,33 @@
+Periksa Kuku
+
+
+Algoritma :
+
+- Teacher instruct the student to put the student finger on the desk
+
+- Teacher observe the nail of the student one by one per desk
+
+ if the student nail is long then the teacher will punish the student
+
+ if the student nail is not long then the teacher will give compliment to the student
+
+Pseudocode :
+
+- GET the student to put the finger on the desk
+
+- INIT the inspection of the student nail
+
+- FOR student = 1 to 40
+
+ 	DETERMINE the length of the student nail
+
+ 	IF student nail long THEN
+
+ 		INIT punishment to the student
+
+ 	ELSE
+
+ 		INIT compliment to the student
+
+ 	END IF
+- END Inspection of the student nail

@@ -1,0 +1,26 @@
+Tahun kabisat
+
+Algoritma :
+
+	1 Pick the gregorian year you would to identify as leap year (tahun kabisat)
+	2. Clarify the leap year by calculate it in the following step :
+		- divide the year by 4, if there is remainder of the division then it is not leap year, if there is no remainder then
+		- divide the year by 100, if there is remainder of the division then it is leap year, if there is no remainder then
+		- divide the year by 400, if there is remainder of the division then it is not leap year, if there is no remainder then it is a leap year
+
+
+Peseudocode :
+
+	1. OBTAIN the gregorian year
+	2. COMPUTE gregorian year by divide it with 4
+		  IF 	gregorian year / 4 with remainder THEN
+				PRINT "NOT LEAP YEAR"
+			ELSE IF gregorian year / 4 without remainder THEN
+				COMPUTE gregorian year / 100
+					IF gregorian year / 100 with remainder THEN
+						PRINT "LEAP YEAR"
+						ELSE IF gregorian / 100  without remainder THEN
+						 COMPUTE gregorian year / 400
+						 IF gregorian year / 400 with remainder THEN
+						 PRINT "NOT LEAP YEAR"
+						 ELSE PRINT "LEAP YEAR"

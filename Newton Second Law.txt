@@ -1,0 +1,22 @@
+Newton Second Law
+
+Algoritma :
+
+
+		- Identify weight of the car (masa benda dalam satuan kg)
+
+		- Identify acceleration of the car
+
+		- nultiply the weight of the car with acceleration of the car to get the net force of the car.
+
+
+Pseudocode :
+
+
+		forumla, f = m * a
+		mass = 600kg
+		accseleration = 2m /s2
+		- multiplay mass by accelertion
+		force = mass * accelaration
+		force = 600kg * 2
+		f = 1200 N

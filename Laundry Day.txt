@@ -1,0 +1,28 @@
+Laundry Day
+
+
+Algoritma :
+
+ - Prepare the clothes
+
+ - Prepare the washing machine detergent
+
+ - Insert the clothes one by one into the washing machine
+
+ - Insert adequate level of water into washing machine
+
+ - Start the washing machine to wash the clothes
+
+Pseudocode :
+
+ - OBTAIN the clothes
+
+ - GET washing machine detergent
+
+ - FOR clothes = 1 to 20
+ 	INSERT clothes into washing machine
+ 	END FOR
+
+ - GET water into washing machine
+
+ - SET washing machine to START
