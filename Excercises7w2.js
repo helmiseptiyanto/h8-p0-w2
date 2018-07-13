@@ -10,9 +10,9 @@ for(var rows1 = 1; rows1 <= 5; rows1++) {
  // 2. Menyusun Barisan Bintang Dengan Nested Looping
 
  var rows1 = 5
- for(var i = 0; i < 5; i++) {
+ for(var i = 0; i < rows1; i++) {
    var temp = ''
-   for(var j = 0; j <  5; j++) {
+   for(var j = 0; j <  rows1; j++) {
      temp += '*';
    }
    console.log(temp)
