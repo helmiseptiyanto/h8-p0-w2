@@ -64,3 +64,10 @@ for(var angka = 1; angka <= 100; angka +=5) {
     console.log(angka + ' 6 KELIPATAN 6')
   }
 }
+
+// 10 KELIPATAN 10
+for(var angka = 1; angka <= 100; angka +=1) {
+  if(angka %9==0) {
+    console.log(angka + ' 10 KELIPATAN 10')
+  }
+}
