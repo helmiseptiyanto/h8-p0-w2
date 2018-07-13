@@ -1,0 +1,118 @@
+----------------------------------
+	Newton Second Law
+----------------------------------
+
+Algoritma :
+
+
+		- Identify weight of the car (masa benda dalam satuan kg)
+
+		- Identify acceleration of the car
+
+		- nultiply the weight of the car with acceleration of the car to get the net force of the car.
+
+
+Pseudocode :
+
+
+		forumla, f = m * a
+		mass = 600kg
+		accseleration = 2m /s2
+		- multiplay mass by accelertion
+		force = mass * accelaration
+		force = 600kg * 2
+		f = 1200 N
+		
+----------------------------------------
+		Tahun kabisat
+----------------------------------------
+
+Algoritma :
+
+	1 Pick the gregorian year you would to identify as leap year (tahun kabisat)
+	2. Clarify the leap year by calculate it in the following step :
+		- divide the year by 4, if there is remainder of the division then it is not leap year, if there is no remainder then
+		- divide the year by 100, if there is remainder of the division then it is leap year, if there is no remainder then
+		- divide the year by 400, if there is remainder of the division then it is not leap year, if there is no remainder then it is a leap year
+
+
+Peseudocode :
+
+	1. OBTAIN the gregorian year
+	2. COMPUTE gregorian year by divide it with 4
+		  IF 	gregorian year / 4 with remainder THEN
+				PRINT "NOT LEAP YEAR"
+			ELSE IF gregorian year / 4 without remainder THEN
+				COMPUTE gregorian year / 100
+					IF gregorian year / 100 with remainder THEN
+						PRINT "LEAP YEAR"
+						ELSE IF gregorian / 100  without remainder THEN
+						 COMPUTE gregorian year / 400
+						 IF gregorian year / 400 with remainder THEN
+						 PRINT "NOT LEAP YEAR"
+						 ELSE PRINT "LEAP YEAR"
+						 
+----------------------------------------
+		Laundry Day
+----------------------------------------
+
+Algoritma :
+
+ - Prepare the clothes
+
+ - Prepare the washing machine detergent
+
+ - Insert the clothes one by one into the washing machine
+
+ - Insert adequate level of water into washing machine
+
+ - Start the washing machine to wash the clothes
+
+Pseudocode :
+
+ - OBTAIN the clothes
+
+ - GET washing machine detergent
+
+ - FOR clothes = 1 to 20
+ 	INSERT clothes into washing machine
+ 	END FOR
+
+ - GET water into washing machine
+
+ - SET washing machine to START
+
+------------------------------------------
+		Periksa Kuku
+------------------------------------------
+
+Algoritma :
+
+- Teacher instruct the student to put the student finger on the desk
+
+- Teacher observe the nail of the student one by one per desk
+
+ if the student nail is long then the teacher will punish the student
+
+ if the student nail is not long then the teacher will give compliment to the student
+
+Pseudocode :
+
+- GET the student to put the finger on the desk
+
+- INIT the inspection of the student nail
+
+- FOR student = 1 to 40
+
+ 	DETERMINE the length of the student nail
+
+ 	IF student nail long THEN
+
+ 		INIT punishment to the student
+
+ 	ELSE
+
+ 		INIT compliment to the student
+
+ 	END IF
+- END Inspection of the student nail
